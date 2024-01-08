@@ -52,6 +52,7 @@ body {
     display: grid;
     justify-items: start;
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
     margin-left: 143px;
     margin-right: 90px;
