@@ -245,7 +245,7 @@ button {
  }
  
 article {
-    max-width: 675px;
+    /*max-width: 675px;*/
     width: 100%;
 }
  
@@ -302,9 +302,12 @@ article {
 .footer__menu-list {
     font-size: 18px;
     font-weight: 400;
-    text-decoration: underline;
     text-align: center;
     padding-left: 40px;
+    flex-direction: row;
+}
+.footer__menu-list li+li {
+    text-decoration: underline;
 }
 
 .footer__social-list-item {
